@@ -33,7 +33,7 @@ Save this checkpoint in ```model_baseline``` folder under ```models``` folder.
 - ```finetune_PrunedModel.py```: Binary to fine-tune (re-train) the final pruned model for around 20-25 epochs.
 
 3. Pruning Masks: 
-- ```generate_RandomMask.py```: 
+- ```generate_RandomMask.py```: generates ```mask_ratio_random.save``` according to the defined "prune_factor"
 - ```generate_EntropyMask.py```: 
 - ```generate_ScaledEntropyMask.py```:
 - ```generate_L1normMask.py```:
