@@ -1,0 +1,2 @@
+# FineTune:
+CUDA_VISIBLE_DEVICES="0"  python finetunePrunedModel.py --checkpoint _conv1_1 --prune_layers CUDA_VISIBLE_DEVICES="0"  python train_and_prune.py --checkpoint _conv1_2 --prune_layers [conv5_1, conv4_3, conv4_2, conv4_1, conv3_3, conv3_2, conv3_1, conv2_2, conv2_1, conv1_2, conv1_1] --layer_name conv1_1 &> output_VGG16_prune_conv1_1  &> output_VGG16_finetune_compactModel
