@@ -3,7 +3,7 @@ This repository contains code for the following paper:
 
 - [Requirements](#Requirements)
 - [Dataset](#Dataset)
-- [Pre-Trained Models](#pretrainedModels)
+- [PreTrained Models](#PreTrained-Models)
 - [Code organization](#code-organization)
 
 # Requirements
@@ -18,7 +18,7 @@ This repository contains code for the following paper:
 - ImageNet-1000: 2017 version
 - To convert raw images to tf-records, you can refer to this code: https://github.com/shwetabhardwaj44/ImageNet_images_to_TFRecords
 
-# Pre-Trained Models
+# PreTrained Models
 Pretrained full VGG-16 model trained on ImageNet is uploaded here: https://drive.google.com/file/d/103FkgQqjClsBjx9PHVKNdV5RnSywI2qy/view?usp=sharing.
 Save this checkpoint in ```model_baseline``` folder under ```models``` folder.
 
